@@ -1,87 +1,149 @@
-# 🥥 Star Garage AI: The Babu Rao Multimodal Agent
+# 🥥 Star Garage AI: The Babu Rao Multimodal Agent 🤖
 
 ![UI](https://img.shields.io/badge/UI-Gradio-orange?style=flat-square)
 ![LLM](https://img.shields.io/badge/LLM-Llama_3_70B-blue?style=flat-square)
 ![API](https://img.shields.io/badge/API-Groq-black?style=flat-square)
 ![Audio](https://img.shields.io/badge/Audio-Edge_TTS-green?style=flat-square)
 
-> "Aye khopdi tod re iska!" – Baburao 😤
+> **"Aye khopdi tod re iska!" – Baburao 😤**
 
-An interactive, multimodal AI agent inspired by the iconic character **Babu Rao Ganpat Rao Apte** from *Hera Pheri*.  
-This project showcases **Agentic AI** concepts like tool calling, strict persona control, and real-time media generation.
+An advanced **Multimodal AI Agent** inspired by the legendary *Babu Rao* from **Hera Pheri**, built to demonstrate real-world **Agentic AI systems**.
 
----
+This project combines:
 
-## 📸 Live Dashboard Preview
-
-*A complete 70/30 split layout featuring Real-time Chat, Image Generation, and Audio Response*
-
-![Star Garage AI Dashboard](/assests/chatbot1.png)
+* 🧠 Intelligent tool usage
+* 🎭 Strict persona control
+* 🖼️ Real-time image generation
+* 🎙️ Voice synthesis
 
 ---
 
-## 🌟 Key Features
+## 📸 Demo Preview
 
-### 🧠 Agentic Tool Calling
-- AI intelligently decides when to trigger tools
-- Supports:
-  - 💰 Scrap rate checking  
-  - 📞 Wrong number handling  
-  - 🖼️ Garage image generation  
+> Real-time multimodal dashboard (Chat + Image + Audio)
 
-### 🎭 Strict Persona Prompting
-- Enforces Baburao's personality:
-  - Angry 😡  
-  - Funny 😂  
-  - Hinglish + Marathi slang  
-- Never breaks character
+![Dashboard](./assests/chatbot1.png)
 
-### 📸 Real-Time Image Generation
-- Uses **Pollinations API**
-- Generates realistic **Star Garage visuals**
-- Dynamically displayed in UI
+---
 
-### 🎙️ Native Audio (Text-to-Speech)
-- Powered by **Edge-TTS**
-- Generates Hindi voice output
-- Fully synced with chat responses
+## 🧠 What Makes This Special?
 
-### 💻 Professional UI/UX
-- Built using **Gradio Blocks**
-- Split layout:
-  - Left → Chat 💬  
-  - Right → Image + Audio 🎧  
-- Clean dark theme
+Unlike basic chatbots, this is a **true Agentic System**:
+
+* Decides *when to think* 🤔
+* Decides *when to act* 🛠️
+* Uses tools dynamically ⚡
+
+---
+
+## 🌟 Core Features
+
+### 🧠 1. Agentic Tool Calling
+
+* Autonomous decision making
+* Tools include:
+
+  * 💰 Scrap price checker
+  * 📞 Wrong number handler
+  * 🖼️ Garage image generator
+
+---
+
+### 🎭 2. Strict Character Persona Engine
+
+* Never breaks character ❌
+* Personality:
+
+  * Angry 😡
+  * Sarcastic 😂
+  * Hinglish + Marathi mix 🗣️
+
+---
+
+### 🖼️ 3. Real-Time Image Generation
+
+* Powered by **Pollinations API**
+* Generates:
+
+  * Garage scenes
+  * Situational visuals
+* Updates instantly in UI ⚡
+
+---
+
+### 🎙️ 4. Audio Response System
+
+* Uses **Edge-TTS**
+* Features:
+
+  * Hindi voice output 🇮🇳
+  * Auto-sync with text
+  * Real-time playback 🎧
+
+---
+
+### 💻 5. Modern UI/UX
+
+* Built with **Gradio Blocks**
+* Layout:
+
+  * Left → Chat 💬
+  * Right → Image + Audio 🎧
+* Dark theme 🌙
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Component | Technology |
-|----------|-----------|
-| Language | Python 🐍 |
-| LLM | Llama 3 (70B) via Groq |
-| UI | Gradio |
-| Image | Pollinations API |
-| Audio | Edge-TTS |
+| Layer      | Tech Used              |
+| ---------- | ---------------------- |
+| 🐍 Backend | Python                 |
+| 🧠 LLM     | Llama 3 (70B) via Groq |
+| 🎨 UI      | Gradio                 |
+| 🖼️ Images | Pollinations API       |
+| 🎙️ Audio  | Edge-TTS               |
 
 ---
 
-## 🚀 How to Run Locally
+## ⚙️ Installation & Setup
 
-### 1 Clone Repository
+### 1️⃣ Clone Repo
+
 ```bash
 git clone https://github.com/your-username/star-garage-ai.git
 cd star-garage-ai
+```
+
+### 2️⃣ Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3️⃣ Add API Keys
+
+Create `.env`
+---
+
+## 👨‍💻 Author
+
+**Shivaji Jagdale**
+
+* 🚀 AI & Full Stack Developer
+* 🤖 Building Agentic AI Systems
+* 🌐 Passionate about GenAI, Automation & Real-world Projects
 
 ---
 
-##🤝 Contributing
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub and share it with others!
+
+---
+
+## 🤝 Contributing
 
 Pull requests are welcome!
+For major changes, please open an issue first to discuss what you would like to change.
 
 ---
-
-##⭐ Support
-
-If you like this project, give it a ⭐ on GitHub!
